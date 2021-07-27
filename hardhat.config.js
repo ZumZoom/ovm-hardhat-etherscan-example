@@ -3,13 +3,12 @@ require('@nomiclabs/hardhat-etherscan');
 require('dotenv').config();
 require('hardhat-deploy');
 
-
 module.exports = {
     ovm: {
         solcVersion: '0.7.6+commit.3b061308',
     },
-    paths : {
-        artifacts: './artifacts-ovm'
+    paths: {
+        artifacts: './artifacts-ovm',
     },
     etherscan: {
         apiKey: process.env.ETHERSCAN_KEY,
