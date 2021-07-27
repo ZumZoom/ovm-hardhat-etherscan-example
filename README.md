@@ -13,3 +13,7 @@ KOVAN_ETHERSCAN_KEY=***_YOUR_ETHERSCAN_KEY_***
 ## Build
 
 Run `yarn` and then `yarn deploy`.
+
+## Deployed contract
+
+[0x4826E07AE9110004762Ed032258D17E9c5768469](https://kovan-optimistic.etherscan.io/address/0x4826E07AE9110004762Ed032258D17E9c5768469)
