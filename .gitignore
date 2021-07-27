@@ -1,5 +1,8 @@
 artifacts
 cache
+artifacts-ovm
+cache-ovm
+deployments
 node_modules
 coverage
 coverage.json

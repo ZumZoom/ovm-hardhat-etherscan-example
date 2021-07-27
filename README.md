@@ -1,7 +1,15 @@
-# Solidity Template
+# OVM etherscan example
 
-Hardhat template for solidity projects with preconfigured Github Actions and Coveralls support.
+## Prerequisites
 
+You need to create `.env` file in the project folder with the following content:
 
-[![Build Status](https://github.com/zumzoom/solidity-template/workflows/CI/badge.svg)](https://github.com/zumzoom/solidity-template/actions)
-[![Coverage Status](https://coveralls.io/repos/github/zumzoom/solidity-template/badge.svg?branch=master)](https://coveralls.io/github/zumzoom/solidity-template?branch=master)
+```
+KOVAN_OPTIMISTIC_RPC_URL=https://kovan.optimism.io
+KOVAN_OPTIMISTIC_PRIVATE_KEY=***_YOUR_PRIVATE_KEY_***
+KOVAN_ETHERSCAN_KEY=***_YOUR_ETHERSCAN_KEY_***
+```
+
+## Build
+
+Run `yarn` and then `yarn deploy`.
